@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>For SVB | A read on where AI fits inside SVB's stack</title>
+<meta name="description" content="Your H1 2026 State of the Markets leads with AI for the third report in a row, and the Healthcare Investments report puts AI at nearly half of 2025 venture dollars. A hypothesis about where that external AI authority runs into friction with OCC-era model risk review on the internal side." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div data-eduba="banner" style="background:#0a0a0a;color:#f5f5f5;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:0.01em;border-bottom:1px solid #1f1f1f;position:relative;z-index:1000;">
+  <a href="https://eduba.io" target="_blank" rel="noopener" style="color:#f5f5f5;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-0.02em;line-height:1;">eduba</a>
+  <span style="opacity:0.88;">Prepared by Eduba for SVB &mdash; Emerge Americas 2026</span>
+</div>
+
+
+<header class="masthead">
+  <div class="container masthead-inner">
+    <a class="brand" href="https://www.svb.com/" target="_blank" rel="noopener" aria-label="Silicon Valley Bank, a division of First Citizens Bank">
+      <img src="logo.svg" alt="Silicon Valley Bank, a division of First Citizens Bank" />
+    </a>
+    <div class="masthead-meta">
+      <span class="eyebrow">Prepared for</span>
+      <span class="meta-value">Silicon Valley Bank</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow hero-eyebrow">A private briefing</p>
+      <h1>A read on where AI fits inside SVB's stack, and where it still waits on governance.</h1>
+      <p class="hero-deck">Prepared for the innovation economy banking team. Matt Creamer, Eduba.</p>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <span class="eyebrow">Audience</span>
+          <span>SVB Commercial and First Citizens Risk</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="eyebrow">Conference</span>
+          <span>eMerge Americas, Miami</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="eyebrow">Reading time</span>
+          <span>Three minutes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pitch">
+    <div class="container pitch-grid">
+
+      <aside class="pitch-rail" aria-label="Section index">
+        <ol>
+          <li><a href="#opening">01 The opening</a></li>
+          <li><a href="#frame">02 The frame</a></li>
+          <li><a href="#case">03 The case</a></li>
+          <li><a href="#paper">04 The paper</a></li>
+          <li><a href="#next">05 Next step</a></li>
+        </ol>
+      </aside>
+
+      <div class="pitch-body">
+
+        <article id="opening" class="section">
+          <header class="section-head">
+            <span class="section-num">01</span>
+            <h2>The opening</h2>
+          </header>
+          <p>SVB's H1 2026 State of the Markets leads with AI. The 17th Healthcare Investments report puts AI at nearly half of 2025 venture dollars. SVB has been clear that the rebuild is about trust first and franchise second.</p>
+          <p>What the external narrative does not yet answer is how the RMs who sit in front of those AI-native founders describe the bank's own internal AI posture when the conversation turns from "you fund us" to "what do you use." That gap is worth closing before it becomes a competitive wedge for JPMorgan Innovation Economy or HSBC.</p>
+        </article>
+
+        <article id="frame" class="section">
+          <header class="section-head">
+            <span class="section-num">02</span>
+            <h2>The frame</h2>
+          </header>
+          <p>Most banks putting AI into their stack are making one of two mistakes. They are either bolting an LLM onto a process that traditional code and a database would handle more cheaply and with stronger audit guarantees, or they are pushing AI toward governance territory (credit decisioning, AML, adverse-action language) where the model risk review cycle will eat the ROI before the tool ships.</p>
+
+          <div class="split-card">
+            <p class="split-lead">Our working view of where the SVB workflow automation actually belongs:</p>
+            <ul class="split-list">
+              <li>
+                <span class="split-pct">60%</span>
+                <span class="split-label">Traditional code and database work</span>
+              </li>
+              <li>
+                <span class="split-pct">30%</span>
+                <span class="split-label">Rule-based logic in a decisioning engine</span>
+              </li>
+              <li>
+                <span class="split-pct">10%</span>
+                <span class="split-label">Genuine LLM territory</span>
+              </li>
+            </ul>
+            <p class="split-foot">Getting that split right before anyone builds is the orchestration job.</p>
+          </div>
+
+          <p>The Ethics Engine, a psychometric assessment tool for evaluating ideological and moral patterns in LLMs, gives the model-behavior harness that SR 11-7 review wants to see. Paper at <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a> and repository at <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>.</p>
+        </article>
+
+        <article id="case" class="section">
+          <header class="section-head">
+            <span class="section-num">03</span>
+            <h2>The case</h2>
+          </header>
+          <p>1,500+ people were trained at Pacific Life and Colgate-Palmolive between May 2025 and today. The measurable result was 6,000 to 9,000 hours saved per year across the participating teams, with a 95% adoption rate at the 30-day mark. Pacific Life is the closest analog for SVB: a regulated financial institution where relationship conversations depend on the person in the chair being fluent in the tools their clients use daily. The program maps cleanly to SVB's RM and operations headcount.</p>
+
+          <dl class="metrics">
+            <div class="metric">
+              <dt>People trained</dt>
+              <dd><span class="metric-value">1,500<span class="metric-plus">+</span></span><span class="metric-sub">since May 2025</span></dd>
+            </div>
+            <div class="metric">
+              <dt>Hours saved per year</dt>
+              <dd><span class="metric-value">6k&ndash;9k</span><span class="metric-sub">across participating teams</span></dd>
+            </div>
+            <div class="metric">
+              <dt>30-day adoption</dt>
+              <dd><span class="metric-value">95%</span><span class="metric-sub">sustained usage post-workshop</span></dd>
+            </div>
+          </dl>
+
+          <p class="pull">A secondary precedent sits one tier up: KPMG UK, one of the Big Four, 40+ executives trained on the same methodology in a regulated, leadership-level audience. If the conversation routes to Model Risk Management before L&amp;D, that is the comparable.</p>
+        </article>
+
+        <article id="paper" class="section">
+          <header class="section-head">
+            <span class="section-num">04</span>
+            <h2>The paper</h2>
+          </header>
+          <p>The methodology has academic footing. The Interpretable Context Methodology is submitted to ACM TiiS and treats agent context as a layered filesystem with measurable interpretability gains. The Ethics Engine is the psychometric assessment tool for evaluating ideological and moral patterns in LLMs, the piece that gives SR 11-7 reviewers something to hold.</p>
+          <ul class="link-list">
+            <li><a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a> <span>Ethics Engine</span></li>
+            <li><a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a> <span>AuditEngine repository</span></li>
+            <li><a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a> <span>ICM repository</span></li>
+          </ul>
+          <p class="small-note">Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.</p>
+        </article>
+
+        <article id="next" class="section cta-section">
+          <header class="section-head">
+            <span class="section-num">05</span>
+            <h2>Next step</h2>
+          </header>
+          <div class="cta-card">
+            <div class="cta-card-body">
+              <p class="cta-kicker">Thirty minutes with Matt Creamer, CRO, Eduba.</p>
+              <p class="cta-detail">Bring one workflow inside SVB or First Citizens that you would not yet trust to an LLM. We will walk through where traditional code, rule-based logic, and AI each belong, and what a six-month governance path looks like.</p>
+            </div>
+            <a class="cta-button" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+              <span>Book the call</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/></svg>
+            </a>
+            <p class="cta-link-fallback">Calendar link: <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <p class="footer-prepared">Prepared by Eduba: <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a> &middot; <a href="https://eduba.io/works" target="_blank" rel="noopener">More case studies</a></p>
+      <p class="footer-note">This page was built for Silicon Valley Bank, a division of First-Citizens Bank. Reference to Silicon Valley Bank is for the purpose of a conference conversation at eMerge Americas 2026. The views are those of Eduba.</p>
+    </div>
+    <div class="footer-col footer-col-right">
+      <p class="footer-contact">Matt Creamer, CRO</p>
+      <p class="footer-contact-sub"><a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a></p>
+    </div>
+  </div>
+</footer>
+
+<footer data-eduba="footer" style="background:#0a0a0a;color:#dcdcdc;padding:36px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.6;border-top:1px solid #1f1f1f;margin-top:48px;">
+  <div style="max-width:1040px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:flex-start;">
+      <div style="min-width:240px;flex:1;">
+        <div style="margin-bottom:6px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#ffffff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-0.02em;">eduba</a></div>
+        <div style="opacity:0.85;margin-bottom:4px;">Van Clief Media LLC, dba Eduba</div>
+        <div style="opacity:0.7;">Veteran-owned AI consulting and training firm</div>
+      </div>
+      <div style="min-width:220px;flex:1;">
+        <div style="color:#ffffff;font-weight:600;margin-bottom:2px;">Matt Creamer, CRO</div>
+        <div style="margin-bottom:10px;"><a href="mailto:thecro@eduba.io" style="color:#dcdcdc;text-decoration:underline;">thecro@eduba.io</a></div>
+        <div style="opacity:0.85;">Founder: Jake Van Clief</div>
+      </div>
+      <div style="min-width:180px;flex:1;">
+        <div style="margin-bottom:4px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#dcdcdc;text-decoration:underline;">eduba.io</a></div>
+        <div style="opacity:0.85;">Palm Coast, FL</div>
+      </div>
+    </div>
+    <div style="margin-top:24px;padding-top:16px;border-top:1px solid #1f1f1f;opacity:0.62;font-size:12px;line-height:1.55;">
+      This site was custom-built by Eduba as a conference pitch. It is not affiliated with or operated by SVB.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
